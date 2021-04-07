@@ -17,6 +17,7 @@ RUN apt-get update && apt-get install -y cadvisor prometheus-squid-exporter prom
 COPY ./scripts/start.sh ~/start.sh
 COPY ./config/telegraf.conf /etc/telegraf/telegraf.conf
 
+EXPOSE 8086/tcp
 EXPOSE 8080/tcp
 EXPOSE 9001/tcp
 EXPOSE 9301/tcp
