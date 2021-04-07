@@ -23,4 +23,4 @@ EXPOSE 9001/tcp
 EXPOSE 9301/tcp
 
 
-ENTRYPOINT ["/bin/sh","~/startbind.sh"]
+ENTRYPOINT ["/bin/sh","~/start.sh"]
